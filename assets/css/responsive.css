@@ -1,0 +1,129 @@
+@media (min-width:1024px) {}
+   
+
+@media (max-width: 1024px) {
+    #footer .logo {
+        margin: 0 10px;
+    }
+
+    .album-section .songs {
+        height: 114px;
+    }
+
+    #footer .sourse {
+        font-size: 36px;
+    }
+    
+    .contact-form .form-submit {
+        border-radius: 1%;
+        padding: 15px 20px;
+    }
+
+    .buy-button {
+        padding: 15px 20px;
+    }
+
+    .contact-form .form-control {
+        padding: 14px;
+    }
+}
+
+
+@media (max-width:739px) {
+    #header .menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: rgb(58, 56, 56);
+        box-shadow: none;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 4px 46px;
+    }
+
+    #nav .subnav .thirdnav,
+    #nav .subnav .fournav,
+    #nav .subnav .fivnav {
+        position: initial;
+        background-color: rgb(100, 97, 97);
+        box-shadow: none;
+    }
+
+    #nav .subnav .thirdnav a ,
+    #nav .subnav .fournav a ,
+    #nav .subnav .fivnav a {
+        color: #fff;
+        padding: 0 76px;
+    }
+
+    #nav .subnav li:hover > a {
+        color: #000;
+    }
+
+    #nav .nav-angle-mobile {
+        display: inline-block;
+    }
+
+    #nav .nav-angle-pc {
+        display: none;
+    }
+
+    .col {
+        float: none;
+        margin-bottom: 16px;
+    }
+
+    .col-third,
+    .s-full-width,
+    .col-half {
+        width: 100%;
+    }
+
+    #content .members-item {
+        float: none;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    #content .members-img {
+        width: 230px;
+        height: 230px;
+    }
+
+    #content .content-section {
+        padding-bottom: 76px;
+    }
+
+    #slider .text-content {
+       display: none;
+    }
+
+    .modal-box {
+        max-width: calc(100% - 23px);
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+}
