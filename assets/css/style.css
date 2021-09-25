@@ -59,7 +59,7 @@ html{
 
 #header {
    height: 46px;
-   background-color: #000;
+   background: url(./assets/img/album/background.jpg) center / cover no-repeat;
    position: fixed;
    top: 0;
    right: 0;
@@ -270,7 +270,7 @@ html{
 }
 
 .album-section {
-    background-color: #000;
+    background: url(./assets/img/album/background.jpg) center / cover no-repeat;
 }
 
 .album-section .font-color{
